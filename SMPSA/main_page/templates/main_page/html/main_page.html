@@ -1,14 +1,61 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  
+  <link rel="stylesheet" href="{% static 'main_page/CSS/style.css' %}">
 </head>
 <body>
-    <h1>
-        Landing Page
-    </h1>
+<div class="logo-wrapper">
+  <IMG class='main-logo' src="{% static  'main_page/assets/logo.gif' %}" />
+  <h1 style="text-align: center;font-family: sans-serif; color: white;">SENTIMENTAL ANALYZER</h1>
+</div>
+<div class="tagline">
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum omnis nisi officiis inventore! Illum consectetur natus corrupti rem veritatis ullam harum expedita fugiat, voluptas aliquid ad temporibus reiciendis voluptates dolores quod ea voluptatum autem aliquam recusandae iusto officiis maxime! Eos amet officiis magnam possimus omnis excepturi quae aperiam aspernatur commodi!
+</div>
+<div class="main-wrapper">
+    <div class="card-wrapper">
+        <div class="card " style="background-color: #295ec262;">
+             <div class="card-logo">
+              <div class="card-header">
+                <img src="{% static 'main_page/assets/ico-facebook.png'%}" alt="">
+                <div class="card-label f">
+                  Facebook
+                </div>
+              </div> 
+             </div>
+        </div>
+    </div>
+    <div class="card-wrapper">
+        <div class=" card " style="background-color: #ff302273;">
+            <div class="card-logo">
+              <div class="card-header">
+                <img src="{% static 'main_page/assets/ico-youtube.png'%}" alt="">
+                 <div class="card-label y">YouTube</div>
+              </div> 
+            </div>
+        </div>
+    </div>
+    <div class="card-wrapper">
+        <div class="card" style="background-color: #1da0f25e;">
+            <div class="card-logo">
+              <div class="card-header">
+                <img src="{% static 'main_page/assets/ico-twitter.png'%}" alt="">
+                 <div class="card-label t">Twitter</div>
+              </div> 
+            </div>
+        </div>
+    </div>
+    <div class="card-wrapper">
+        <div class=" card " style="background-color: #753ac759">
+            <div class="card-logo">
+              <div class="card-header">
+                <img src="{% static 'main_page/assets/ico-insta.png'%}" alt="">
+                <div class="card-label I">Instagram</div>
+              </div> 
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
