@@ -4,11 +4,12 @@
 body{
   margin: 0;
   padding: 0;
-  backdrop-filter: blur(8px);
+
   background-image: url(https://img.wallpapersafari.com/desktop/1024/576/95/98/3vRqDI.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  backdrop-filter: brightness(40%) blur(5px);
+  background-attachment: fixed;
+  background-size:cover;
+  backdrop-filter: brightness(40%) blur(3px);
 }
 .logo-wrapper {
   width: 1440px;
@@ -54,7 +55,7 @@ body{
 }
 
 .card:hover{
- box-shadow:3px 3px 10px  rgba(148, 148, 148, 0.712);
+ box-shadow: 0 0 15px  rgba(32, 241, 4, 0.829);
  transition: 150ms;
 }
 
@@ -101,4 +102,12 @@ background-color: #1DA1F2;
   border-top-color:rgba(255, 255, 255, 0.603) ;
   height: 300px;
   background-color: rgb(41, 40, 41);
+}
+.contrib-wrapper{
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contrib-title{
+ 
 }
